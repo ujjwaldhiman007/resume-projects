@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #000000;
+}
+.header{
+    min-height: 100vh;
+   
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/wp2358444-la-casa-de-papel-money-heist-wallpapers.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 34px 34px 34px 34px hsl(36, 11%, 9%);
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+ }
+ nav h1{
+     color: red;
+     font-size: 40px;
+  
+ }
+ .nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+
+
+/* la papel de casa  */
+
+
+
+/* euros */
+.euros img{
+    animation: euro 7s linear infinite;
+}
+.euros{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 90px;
+}
+
+@keyframes euro {
+
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(80vh);
+        opacity: 0;
+    }
+}
+
+.euros img:nth-child(1){
+    animation-delay: 2s;
+}
+.euros img:nth-child(2){
+    animation-delay: 1s;
+}
+.euros img:nth-child(3){
+    animation-delay: 3s;
+}
+.euros img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.euros img:nth-child(5){
+    animation-delay: 2s;
+}
+.euros img:nth-child(6){
+    animation-delay: 6s;
+}
+.euros img:nth-child(7){
+    animation-delay: 7s;
+}
+.euros img:nth-child(9){
+    animation-delay: 2s;
+}
+.euros img:nth-child(10){
+    animation-delay: 3.5s;
+}
+.euros img:nth-child(11){
+    animation-delay: 7s;
+}
+.euros img:nth-child(12){
+    animation-delay: 4s;
+}
+
+
+/* -----------------professor--------------- */
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+/* .professor{
+    width: 90%;
+    margin: auto;
+} */
+
+.pro-t{
+    /* border: 2px solid red; */
+    flex-basis: 35%;
+}
+.pro-t img{
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+.pro-t img:hover{
+    box-shadow: 0 0 100px 0 red;
+}
+
+.pro{
+    
+    /* margin: 50px 0; */
+    padding-left: 15px;
+    /* border: 2px solid blue; */
+    flex-basis: 65%;
+}
+.pro h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    text-align: left;
+    color: red;
+}
+    .pro h2::before, .pro h2::after{
+        content: '';
+        flex: 1 1;
+        border-bottom: 1px solid;
+        margin: auto;
+    }
+    .pro h2::before{
+        margin-right: 10px;
+
+    }
+    .pro h2::after{
+        margin-left: 10px;
+    }
+.pro p{
+    font-size: 18px;
+    
+    margin: 50px 0;
+    text-align: left;
+    color: #fff;
+}
+
+@media (max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column-reverse;
+    }
+    .pro h2{
+        text-align: center;
+    }
+   
+    /* ---------berlin---------- */
+
+}
+
+.ber-t{
+    padding-right:  15px;
+    /* border: 2px solid red; */
+    flex-basis: 65%;
+}
+.ber-t h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    text-align: left;
+    color: red;
+}
+.ber-t h2::after, .ber-t h2::before{
+    content: '';
+    flex:  1 1;
+    margin: auto;
+    border-bottom: 1px solid;
+}
+.ber-t h2::after{
+    margin-left: 10px;
+}
+.ber-t h2::before{
+    margin-right: 10px;
+}
+.ber-t p{
+     font-size: 18px;
+    
+    margin: 50px 0;
+   text-align: left;
+   color: #fff;
+}
+.ber{
+    /* border: 2px solid blue; */
+    flex-basis: 35%;
+}
+.ber img{
+    width: 100%;
+    height: 250px;
+    transition: 1s;  
+}
+.ber img:hover{
+    box-shadow: 0 0 100px 0 red;
+}
+
+
+
+
+/* ---------textbox--------- */
+
+.textbox{
+    background: linear-gradient(to left, red, transparent);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* position: absolute;
+    top: 50%;
+    right: 50%; */
+  
+    width: 100%;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+}
+.textbox h1{
+    
+    font-size: 50px;
+    color: white;
+}
+
+@media(max-width:700px){
+    .textbox h1{
+        font-size: 30px;
+    }
+}
+
+
+/* ----------royal mint------- */
+.mint{
+    margin: 100px 0;
+}
+
+.mint h1{
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.mint h1::after, .mint h1::before{
+    background: red;
+    content: '';
+    margin: auto;
+    flex: 1 1;
+    border-bottom: 1px solid ;
+}
+
+.mint h1::after{
+    margin-left: 10px;
+}
+.mint h1::before{
+    margin-right: 10px;
+}
+
+.mint-1{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.mint-1 img{
+    width: 80%;
+    transition: 1s;
+}
+
+.mint-1 img:hover{
+    box-shadow:  0 0 200px 0 red;
+}
+
+.mint-2{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  
+}
+.mint-2 h2{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    align-items: center;
+}
+
+.mint-2 p{
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+@media(max-width:700px){
+    .mint h1{
+        font-size: 25px;
+    }
+
+    .mint-2 h2{
+        font-size: 30px ;
+    }
+}
+
+
+/* --------footer--------- */
+.footer{
+    width: 100%;
+    margin: auto;
+    
+    background: linear-gradient(to bottom, transparent, red);
+    /* border: 2px solid red; */
+}
+.foot-1{
+    
+    /* text-align: center; */
+    /* border: 2px solid  black; */
+    flex-basis: 25%;
+    margin-bottom: 20px;
+}
+.foot-1 h2{
+    font-family: 'Water Brush', cursive;
+    font-size: 30px;
+    color: red;
+    margin-bottom: 10px;
+}
+.foot-1 p{
+    color: #fff;
+}
+.foot-2{
+   
+    
+    text-align: center;
+    margin-bottom: 20px;
+    flex-basis: 25%;
+}
+.foot-2 h2{
+    color: red;
+    margin-bottom: 10px ;
+}
+.foot-2 li{
+    color: #fff;
+    padding: 3px 0;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.foot-2 li a{
+    
+    text-decoration: none;
+}
+.foot-3{
+    
+    text-align: center;
+    flex-basis: 25%;
+    margin-bottom: 20px;
+}
+.foot-3 h2{
+    color: red;
+    margin-bottom: 10px;
+}
+.foot-3 li{
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0;
+    list-style: none;
+    text-decoration: none;
+}
+.foot-3 li a{
+   
+    text-decoration: none;
+}
+.foot-3{
+    text-align: center;
+    margin-bottom: 20px;
+    flex-basis: 25%;
+}
+.foot-4{
+    
+   display: flex;
+   flex-direction: column;
+  
+    text-align: center;
+    margin-bottom: 20px;
+    flex-basis: 25%;
+}
+.foot-4 h2{
+    color: red;
+    margin-bottom: 10px;
+}
+.foot-4 img{
+    
+    cursor: pointer;
+    padding: 3px 0;
+   margin: auto;
+    /* padding: 1px 120px;
+    display:block; */
+    width: 30px;
+}
+
+#linebreak{
+    
+    width: 90%;
+    
+    margin: auto;
+}
+.copyright p{
+    
+    text-align: center;
+    font-size: 15px;
+    margin: 8px 0;
+    color: #fff;
+}
+
+
+@media(max-width:700px){
+    .foot-1{
+        text-align: center;
+    }
+    
+    
+}
+
+
+
+
+/* ---------respnosive navlinks---------------- */
+
+.close-open{
+    display: none;
+}
+
+@media(max-width:700px){
+   
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: red;
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: -300px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .nav-links ul{
+        padding: 30px;
+
+    }
+   .close-open{
+       display: block;
+       color: #fff;
+       cursor: pointer;
+       margin: 10px;
+       font-size: 22px;
+       width: 20px;
+   }
+}
+
+
+/* tap to top button */
+.top-toggle{
+    background-color: red;
+    padding: 1rem 1.3rem;
+    border-radius: 10rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1.1rem;
+    outline: #000000;
+    /* z-index: 1000; */
+}
+
+@media (max-width: 700px) {
+    .top-toggle{
+        /* z-index: 1000; */
+        right: 4rem;
+    }
+}

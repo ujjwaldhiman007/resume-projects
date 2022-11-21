@@ -1,0 +1,342 @@
+/* ------tokyo------- */
+.tok-1{
+    flex-basis: 35%;
+
+}
+.tok-1 img{
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+.tok-1 img:hover{
+    box-shadow:  0 0 100px 0 red;
+}
+
+.tok{
+    padding-left: 15px;
+    flex-basis: 65%;
+}
+.tok h2{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-size: 40px;
+}
+.tok h2::after, .tok h2::before{
+    content: '';
+    flex: 1 1;
+    margin: auto;
+    border-bottom: 1px solid;
+}
+.tok h2::after{
+    margin-left: 10px;
+}
+.tok h2::before{
+    margin-right: 10px;
+}
+.tok p{
+    color: #fff;
+    font-size: 18px;
+    margin: 50px 0;
+}
+
+/* ----------rio------- */
+.rio-1{
+    padding-right: 15px;
+    flex-basis: 65%;
+
+}
+.rio-1 h2{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-size: 40px;
+}
+.rio-1 h2::after, .rio-1 h2::before{
+    content: '';
+    flex: 1 1 ;
+    margin: auto;
+    border-bottom: 1px solid;
+
+}
+.rio-1 h2::after{
+    margin-left: 10px;
+}
+.rio-1 h2::before{
+    margin-right: 10px ;
+}
+
+.rio-1 p{
+    font-size: 18px;
+    color:#fff;
+    margin: 50px 0;
+}
+.rio{
+    flex-basis: 45%;
+
+}
+.rio img{
+    height: 250px;
+    width: 100%;
+    transition: 1s;
+}
+.rio img:hover{
+    box-shadow: 0 0 100px 0 red;
+}
+ 
+
+
+/* --------moscow--------- */
+.mos-1{
+    flex-basis: 35%;
+
+}
+.mos-1 img{
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+.mos-1 img:hover{
+    box-shadow: 0 0 100px 0 red;
+}
+.mos{
+    padding-left: 15px;
+    flex-basis: 65%;
+}
+.mos h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    color: red;
+    transition: 1s;
+}
+.mos h2:hover{
+    font-size: 55px;
+}
+.mos h2::after, .mos h2::before{
+    content: '';
+    margin: auto;
+    flex: 1 1;
+    border-bottom: 1px solid;
+}
+.mos h2::after{
+    margin-left: 10px;
+}
+.mos h2::before{
+    margin-right: 10px ;
+}
+.mos p{
+    font-size: 18px;
+    color: #fff;
+    margin: 50px 0;
+}
+
+/* ----------oslo--------- */
+.osl-1{
+    padding-right: 15px;
+    flex-basis: 65%;
+}
+.osl-1 h2{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-size: 40px;
+}
+.osl-1 h2::after, .osl-1 h2::before{
+    content: '';
+    margin: auto;
+    flex: 1 1 ;
+    border-bottom: 1px solid;
+}
+.osl-1 h2::after{
+    margin-left: 10px;
+}
+.osl-1 h2::before{
+    margin-right: 10px;
+}
+.osl-1 p{
+    color: #fff;
+    font-size: 18px;
+    margin: 50px 0;
+}
+
+.osl{
+    flex-basis: 35%;
+}
+.osl img{
+    height: 250px;
+    width: 100%;
+    transition: 1s;
+}
+.osl img:hover{
+    box-shadow: 0 0 100px 0 red;
+}
+
+
+
+/* ----------nairobi----------- */
+.nai-1{
+    flex-basis: 35%;
+
+}
+.nai-1 img{
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+.nai-1 img:hover{
+    box-shadow: 0 0 100px 0 red;
+}
+.nai{
+    padding-left: 15px;
+    flex-basis: 65%;
+}
+.nai h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    color: red;
+}
+.nai h2::after, .nai h2::before{
+    content: '';
+    margin: auto;
+    flex: 1 1;
+    border-bottom: 1px solid;
+}
+.nai h2::after{
+    margin-left: 10px;
+}
+.nai h2::before{
+    margin-right: 10px ;
+}
+.nai p{
+    font-size: 18px;
+    color: #fff;
+    margin: 50px 0;
+}
+
+/* --------helsinki-------- */
+.hel-1{
+    
+    flex-basis: 65%;
+
+}
+.hel-1 h2{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-size: 40px;
+}
+.hel-1 h2::after, .hel-1 h2::before{
+    content: '';
+    margin: auto;
+    flex: 1 1;
+    border-bottom: 1px solid;
+
+}
+.hel-1 h2::after{
+    margin-left: 10px;
+}
+.hel-1 h2::before{
+    margin-right: 10px;
+}
+.hel-1 p{
+    margin: 50px 0;
+    color: #fff;
+    font-size: 18px;
+}
+.hel{
+    padding-left: 15px;
+    flex-basis: 35%;
+}
+.hel img{
+    height: 240px;
+    width: 100%;
+    transition: 1s;
+}
+.hel img:hover{
+    box-shadow: 0 0 100px 0 red;
+}
+
+/* ---------Denver--------- */
+.den-1{
+    
+    flex-basis: 35%;
+}
+.den-1 img{
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+.den-1 img:hover{
+    box-shadow:  0 0 100px 0 red;
+}
+.den{
+    padding-left: 15px;
+    flex-basis: 65%;
+}
+.den h2{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-size: 40px;
+
+}
+.den h2::after, .den h2::before{
+    content: '';
+    margin: auto;
+    flex: 1 1;
+    border-bottom: 1px solid;
+}
+.den h2::after{
+    margin-left: 10px;
+}
+.den h2::before{
+    margin-right: 10px ;
+}
+.den p{
+    color: #fff;
+    font-size: 18px;
+    margin:50px 0;
+}
+
+/* -----------monica--------- */
+.mon-1{
+    padding-right: 15px;
+    flex-basis: 65%;
+}
+.mon-1 h2{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-size: 40px;
+}
+.mon-1 h2::after, .mon-1 h2::before{
+    content: '';
+    margin: auto;
+    flex: 1 1;
+    border-bottom: 1px solid ;
+}
+.mon-1 h2::after{
+    margin-left: 10px;
+}
+.mon-1 h2::before{
+    margin-right: 10px;
+}
+.mon-1 p{
+    font-size: 18px;
+    margin: 50px 0;
+    color: #fff;
+}
+.mon{
+  
+    flex-basis: 35%;
+}
+.mon img{
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+.mon img:hover{
+    box-shadow: 0 0 100px 0 red ;
+}

@@ -1,0 +1,245 @@
+    <footer>
+        <main class="music-player">
+            <!-- <div class="master-image"> -->
+            <div class="music-player-image">
+                <img src="./vilencovers/cover1.jpg" alt="" id="masterImage" class="master-image">
+            </div>
+            <h3 id="masterSongName" class="master-song-name">Eak raat</h3>
+            <!-- </div> -->
+            <div class="seekbar">
+                <input type="range" name="range" value="0" min="0" max="100" id="myProgressBar">
+            </div>
+            <div class="music-player-buttons">
+                <i class="ri-arrow-down-s-line" id="reduce"></i>
+                <i class="ri-skip-back-fill" id="previous"></i>
+                <i class="ri-play-fill" id="masterPlay"></i>
+                <i class="ri-pause-line" id="masterPause"></i>
+                <i class="ri-skip-forward-fill" id="next"></i>
+                <i class="ri-arrow-up-s-line" id="expand"></i>
+            </div>
+        </main>
+    </footer>
+
+
+
+
+style of this music player
+
+
+    footer{
+  /* visibility: hidden; */
+  position: sticky;
+  /* width: 100%; */
+  bottom: 0;
+  /* height: ; */
+  background-color: var(--clr-grey-2);
+  box-shadow: var(--dark-shadow);
+  z-index: 11;
+  transition: 2s;
+}
+.music-player{
+  display: grid;
+  grid-template-columns: 11% 15% 48% 25%;
+  grid-template-rows: auto;
+  transition: 2s;
+  padding: 2rem;
+}
+.music-player-image{
+  display: flex;
+  justify-content: center;
+}
+.master-image{
+  /* justify-self: center;
+  height: 70%;
+  object-fit: cover;
+  width: 41%;
+  border-radius: 1rem;
+  align-self: center;  */
+  justify-self: center;
+  height: 100%;
+  object-fit: cover;
+  width: 37%;
+  align-self: center;
+}
+#masterImage{
+
+}
+
+.seekbar{
+align-self: center;
+}
+.seekbar input{
+  width: 100%;
+}
+.music-player-buttons{
+
+  margin: auto 0; 
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+.ri-play-fill{
+  /* display: none */
+}
+.ri-pause-line{
+  display: none;
+}
+#masterSongName{
+  /* align-self: center; */
+}
+.master-song-name{
+
+  align-self: center;
+}
+
+@media (max-width:420px) {
+    .music-player{
+      padding: 1rem 0;
+      grid-template-columns: 21% 10% 40% 26%;
+    }
+    .master-image{
+      justify-self: center;
+    }
+    .master-song-name{
+      font-size: .66rem;
+    }
+    .music-player-buttons{
+      /* margin-top: 0.77rem; */
+    }
+}
+@media (max-width:1200px) {
+  .music-player{
+    padding: 1rem 0;
+
+  }
+
+  .master-song-name{
+    font-size: 1.3rem;
+  }
+  .music-player-buttons{
+    /* margin-top: 0.77rem; */
+  }
+}
+.ri-arrow-up-s-line{
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+#reduce{
+  visibility: hidden;
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+/* =============================
+add or remove classlist by js
+=========================== */
+.music-player-expand{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 66% 9% 12% 8%;
+} 
+.master-image-expand{
+  box-shadow: var(--dark-shadow);
+  justify-self: center;
+  height: 70%;
+  object-fit: cover;
+  width: 25%;
+  border-radius: 1rem;
+  align-self: center;
+}
+.master-song-name-expand{
+  justify-self: center;
+    align-self: center;
+}
+.music-player-buttons-expand{
+
+}
+
+.seekbar-expand{
+  padding: 18rem;
+}
+@media (max-width: 400px) {
+  .master-image-expand{
+
+    width: 72%;
+}
+  .seekbar-expand{
+  padding: 1rem;
+}
+}
+/* ============================
+=============================== */
+@keyframes pulse {
+  from { transform: scale(0.8); }
+  to { transform: scale(1.2); }
+}
+@media (max-width: 850px) {
+
+
+
+}
+@media (max-width: 680px) {
+
+}
+@media (max-width: 440px) {
+
+  
+}
+
+
+
+
+
+// javascript of this music player
+
+
+const musicPlayer = document.querySelector(".music-player");
+// const masterImage = document.getElementById("masterImage");
+const masterImage = document.querySelector(".master-image");
+const seekbar = document.querySelector(".seekbar");
+const masterSongName = document.querySelector(".master-song-name");
+const musicPlayerButtons = document.querySelector(".music-player-buttons");
+// const myProgressBar = document.getElementById("myProgressBar");
+
+
+document.getElementById("expand").addEventListener('click', ()=>{
+    console.log("huray");
+    musicPlayer.classList.remove("music-player");
+    musicPlayer.classList.add("music-player-expand");
+    masterImage.classList.remove("master-image")
+    masterImage.classList.add("master-image-expand")
+    masterSongName.classList.remove("master-song-name")
+    masterSongName.classList.add("master-song-name-expand")
+    seekbar.classList.add("seekbar-expand")
+    document.getElementById("expand").style.visibility = "hidden";
+    document.getElementById("reduce").style.visibility = "visible";
+})
+document.getElementById("reduce").addEventListener('click', ()=>{
+    musicPlayer.classList.add("music-player");
+    musicPlayer.classList.remove("music-player-expand");
+    masterImage.classList.add("master-image")
+    masterImage.classList.remove("master-image-expand")
+    masterSongName.classList.add("master-song-name")
+    masterSongName.classList.remove("master-song-name-expand")
+    seekbar.classList.remove("seekbar-expand")
+    document.getElementById("expand").style.visibility = "visible";
+    document.getElementById("reduce").style.visibility = "hidden";
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

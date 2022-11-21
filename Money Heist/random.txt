@@ -1,0 +1,113 @@
+<!-- ----------tokyo---------- -->
+<section class="tokyo">
+    <div class="row">
+        <div class="tok-1">
+            <img src="/img/tokyo.jpg" alt="">
+        </div>
+        <div class="tok">
+            <h2>Tokyo</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem vitae nam dolore voluptates non? Optio modi laborum, fuga ex ut odio laboriosam vel ab distinctio consequuntur voluptas alias ipsam incidunt reiciendis? Delectus est tempora deserunt quia suscipit omnis quasi amet, nam sed autem aperiam.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ----------rio---------- -->
+<section class="rio">
+    <div class="row2">
+        <div class="rio-1">
+            <h2>Rio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nostrum facilis fugit deserunt provident sint quasi reprehenderit iure adipisci dolores ad pariatur placeat ipsa, quibusdam accusamus nobis voluptate fuga eveniet autem nihil, atque quaerat natus impedit. Harum quis aut illo consequuntur, sit perferendis eos.</p>
+        </div>
+        <div class="rio">
+            <img src="/img/rio.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+<!-- ----------moscow---------- -->
+<section class="moscow">
+    <div class="row">
+        <div class="mos-1">
+            <img src="/img/Moscow.jpg" alt="">
+        </div>
+        <div class="mos">
+            <h2>Moscow</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eligendi velit ut? Cupiditate, doloremque aut alias temporibus ad pariatur suscipit consequuntur eos aliquid aspernatur nihil quas deserunt voluptatem inventore reiciendis magnam. Magnam eligendi iure libero labore enim! Asperiores numquam ratione accusantium voluptatem modi quas!</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- --------oslo-------- -->
+<section class="oslo">
+    <div class="row2">
+        <div class="osl-1">
+            <h2>Oslo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis eveniet fuga consequuntur id soluta labore animi libero laborum ipsam sapiente expedita, tenetur inventore assumenda vel debitis accusantium doloribus aspernatur rem hic aliquid minima dolores necessitatibus enim. Velit ipsam labore nulla iure repellendus a consectetur.</p>
+        </div>
+        <div class="osl">
+            <img src="/img/oslo.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- --------nairobi--------- -->
+<section class="nairobi">
+    <div class="row">
+        <div class="nai-1">
+            <img src="/img/nairobi.jpg" alt="">
+        </div>
+        <div class="nai">
+            <h2>Nairobi</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde sit ullam officia libero nostrum animi nemo, dignissimos voluptatem ad, maiores facere nihil aliquam atque accusantium neque adipisci veniam exercitationem similique sint labore eius vero vel. Explicabo architecto quisquam molestias soluta similique laborum voluptatum!</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ----------helsinki---------- -->
+
+<section class="helsinki">
+    <div class="row2">
+        <div class="hel-1">
+            <h2>Helsinki</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptate error quibusdam, maxime aperiam in reprehenderit ab itaque voluptatem necessitatibus. Dicta praesentium facere quae quisquam labore, assumenda, iste sint amet, iusto nihil blanditiis perferendis magni velit doloremque placeat a voluptate. Explicabo pariatur earum commodi?</p>
+        </div>
+        <div class="hel">
+            <img src="/img/helsinki.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- --------denver-------- -->
+<section class="denver">
+    <div class="row">
+        <div class="den-1">
+            <img src="/img/Denver.jpg" alt="">
+        </div>
+        <div class="den">
+            <h2>Denver</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestiae sit ipsam voluptatum quidem vitae in sed reiciendis sunt illo. Suscipit laboriosam distinctio quae incidunt dolorum maxime at, odio nesciunt officiis architecto aliquid dicta repellat exercitationem dignissimos enim quas, accusamus voluptates, cum dolorem quasi?</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ----------Monica----------- -->
+<section class="monica">
+    <div class="row2">
+        <div class="mon-1">
+            <h2>Monica</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius maiores perferendis ab facere sit? Modi, consectetur sequi explicabo veniam qui dolorum ipsa ea illo quam nesciunt amet consequatur accusantium totam delectus quisquam et fugiat esse saepe vero! Explicabo excepturi veritatis quidem impedit, asperiores dicta.</p>
+        </div>
+        <div class="mon">
+            <img src="/img/Monica.jpg" alt="">
+        </div>
+    </div>
+</section>

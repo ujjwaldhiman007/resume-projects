@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Music App</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="nav-buttons">
+                <button class="toggle-login-page">Log in</button>
+                <button class="dark-mode-btn" onclick="toggleDarkMode()">dark on</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- playlist -->
+    <section class="play-list">
+        <h3 onclick=>Playlist</h3>
+        <main class="play-list-container">
+            <div class="play-list-items" onclick="sirHtml">
+                <div class="play-list-items-image">
+                    <img src="./img/vilen.jpg" alt="">
+                </div>
+                <h3 class="singer-name">Eminem</h3>
+                <p class="about-singer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, animi.</p>
+            </div>
+        </main>
+    </section>
+</body>
+<script src="./js/app.js"></script>
+<script src="./js/displayitems.js"></script>
+<script src="./js/songs.js"></script>
+
+</html>
