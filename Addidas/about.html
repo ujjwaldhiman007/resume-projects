@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./imgs/addids logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img src="/imgs/icons8-close-30.png" alt="" class="close-open" onclick="hiddenMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <img src="/imgs/menu bar.png" alt="" class="close-open" onclick="showMenu()">
+
+        </nav>
+     <h1>ABOUT US</h1>
+    </section>
+
+
+    <!-- -----------------about us section---------------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-column">
+                <h1>PUT YOUR ADDIDAS AND STEP OFF</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni praesentium sunt architecto omnis ea nam. Suscipit ipsa nulla eos aspernatur incidunt libero eaque similique ipsum cum maxime voluptate soluta commodi hic, labore minus odit, sapiente dolor tenetur tempora animi nemo! Distinctio quia quidem quis!</P>
+                <a class="hero-btn red-btn" href="">EXPLORE NOW</a>
+            </div>
+            <div class="about-column">
+                <img src="./imgs/about us2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------footer------------------ -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quibusdam aliquam, necessitatibus pariatur officiis numquam, <br> impedit eos beatae neque nemo harum velit nulla!</p>
+
+      <div class="icons">
+        <a href="https://www.facebook.com/adidasIN/?brand_redir=182162001806727" target="_blank"><img src="/imgs/facebook logo.png" alt=""></a>
+        <a href="https://www.instagram.com/adidas/?hl=en" target="_blank"><img src="/imgs/instagram logo.png" alt=""></a>
+        <a href="https://twitter.com/adidas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank"> <img src="/imgs/twitterpng.png" alt=""></a>
+          
+      </div>
+
+      <p style="color: black;">Made with by Professor @copyright all rights received</p>
+    </section>
+
+
+
+
+      <!-- javascript for tooggle menu  -->
+
+      <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hiddenMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

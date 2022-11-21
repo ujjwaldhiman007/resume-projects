@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <section class="contactus-header">
+        <nav>
+            <a href="index.html"><img src="./imgs/addids logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img src="/imgs/icons8-close-30.png" alt="" class="close-open" onclick="hiddenMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <img src="/imgs/menu bar.png" alt="" class="close-open" onclick="showMenu()">
+
+        </nav>
+       <h1>CONTACT US</h1>
+    </section>
+
+
+    <!-- ----------------------contactus section----------------- -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.256436887803!2d86.17686261496358!3d22.792959985069846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e365e96a8e91%3A0xd92acfa2838e7f2d!2sAdidas%20Showroom!5e0!3m2!1sen!2sin!4v1649063935472!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+          <div class="contact-column">
+              <div>
+                  <img src="/imgs/home icon.png" alt="">
+                  <span>
+                      <h5>P & M Hi-Tech City Center Unit No. F-13 & 14,</h5>
+                      <p> First Floor, Bistupur,</p>
+                  </span>
+              </div>
+
+              <div>
+                <img src="/imgs/Phone icon.png" alt="">
+                <span>
+                    <h5>+1 0989767656787</h5>
+                    <p>Monday to saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="/imgs/envelop.png" alt="">
+                <span>
+                    <h5>ujjwaldhiman417@gamil.com</h5>
+                    <p>Email us your query</p>
+                </span> 
+            </div>
+          </div>
+          <div class="contact-column">
+              <form action="">
+                  <input type="text" placeholder="Enter Your name" required>
+                  <input type="email" placeholder="Enter email adrdess" required>
+                  <input type="text" placeholder="Enter Your boot size" required>
+                  <textarea   rows="8" placeholder="Message"></textarea>
+                  <button class="hero-btn red-btn">Send message</button>
+              </form>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------footer------------------- -->
+    
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quibusdam aliquam, necessitatibus pariatur officiis numquam, <br> impedit eos beatae neque nemo harum velit nulla!</p>
+
+      <div class="icons">
+        <a href="https://www.facebook.com/adidasIN/?brand_redir=182162001806727" target="_blank"><img src="/imgs/facebook logo.png" alt=""></a>
+        <a href="https://www.instagram.com/adidas/?hl=en" target="_blank"><img src="/imgs/instagram logo.png" alt=""></a>
+        <a href="https://twitter.com/adidas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank"> <img src="/imgs/twitterpng.png" alt=""></a>
+          
+      </div>
+
+      <p style="color: black;">Made with by Professor @copyright all rights received</p>
+    </section>
+
+
+
+<!-- ---------------------javascript-------------------- -->
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hiddenMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

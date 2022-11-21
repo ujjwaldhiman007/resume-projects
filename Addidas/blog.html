@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="blog-header">
+        <nav>
+            <a href="index.html"><img src="./imgs/addids logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img src="/imgs/icons8-close-30.png" alt="" class="close-open" onclick="hiddenMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <img src="/imgs/menu bar.png" alt="" class="close-open" onclick="showMenu()">
+
+        </nav>
+        <h1>HAPTIC POWER & GREAT DESIGN</h1>
+      
+    </section>
+
+
+
+    <!-- -------------------------blog page content------------------>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./imgs/blog3.jpg" alt="">
+                <h2>Haptic power & great design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti rerum, dolores perspiciatis a dignissimos consequuntur repellendus? Dicta, deleniti tempora? Error fuga ex dignissimos minus cupiditate quod tempora necessitatibus tempore sapiente iste quaerat hic debitis eveniet praesentium ea, minima odio voluptate exercitationem suscipit aspernatur maxime dolores! Quis numquam voluptatem nisi illum. Sed deserunt quas eum.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, doloribus temporibus nemo ipsa iusto optio quibusdam maxime necessitatibus nulla perferendis delectus maiores. Beatae nemo earum vitae. Illum molestias distinctio possimus perspiciatis quos id illo. Qui consectetur magnam eligendi in sed autem aperiam sapiente asperiores, repellendus laborum sunt quod voluptate. Provident dolorum eius sit officia aliquam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus fuga architecto quam magni beatae officia! Sunt quae cupiditate modi repellat quo explicabo corporis similique inventore quam recusandae alias veniam consequuntur mollitia, earum quidem quaerat doloribus molestiae rem nulla ab excepturi necessitatibus! Voluptatibus perferendis dolore fugiat animi, ut vel perspiciatis blanditiis reprehenderit numquam consequuntur cupiditate quidem odit delectus amet, vero, unde totam dolorum. Doloribus tempora impedit sed?</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab aut consectetur, esse sed doloremque sint incidunt laudantium dignissimos, ullam deleniti nobis ea repudiandae libero culpa voluptatem autem nesciunt ipsam? Illum debitis et est saepe quibusdam, aut tempore repellat quod, autem eius a modi facere nesciunt at temporibus sapiente fuga eveniet? Molestias quasi qui facilis distinctio quae!</p>
+
+
+                <div class="comment-box">
+                    <h3> Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="text" placeholder="Enter email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">Post comment</button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3> BOOTS CATEFORIES</h3>
+                <div>
+                    <span> Adidas Predator Freak + FG </span>
+                    <span> FG</span>
+                </div>
+
+                <div>
+                    <span>Adidas Copa 20.3 FG </span>
+                    <span> FG</span>
+                </div>
+
+                <div>
+                    <span>Adidas Kaiser 5 Cup </span>
+                    <span> FG</span>
+                </div>
+
+                <div>
+                    <span> Adidas X Speedflow .3 soft ground boots</span>
+                    <span> FG</span>
+                </div>
+
+                <div>
+                    <span>  Adidas Predator Freak.3 </span>
+                    <span> FG</span>
+                </div>
+
+                <div>
+                    <span> Adidas Copa Sense .3 multi ground boots</span>
+                    <span> FG</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+    <!-- ----------------------footer------------------ -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quibusdam aliquam, necessitatibus pariatur officiis numquam, <br> impedit eos beatae neque nemo harum velit nulla!</p>
+
+      <div class="icons">
+        <a href="https://www.facebook.com/adidasIN/?brand_redir=182162001806727" target="_blank"><img src="/imgs/facebook logo.png" alt=""></a>
+        <a href="https://www.instagram.com/adidas/?hl=en" target="_blank"><img src="/imgs/instagram logo.png" alt=""></a>
+        <a href="https://twitter.com/adidas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank"> <img src="/imgs/twitterpng.png" alt=""></a>
+      </div>
+
+      <p style="color: black;">Made with by Professor @copyright all rights received</p>
+    </section>
+
+
+
+
+      <!-- javascript for tooggle menu  -->
+
+      <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hiddenMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
