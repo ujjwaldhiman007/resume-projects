@@ -74,6 +74,7 @@ Array.from(document.getElementsByClassName("song-index-play-btn")).forEach((elem
         masterPause.style.display = "block";
         document.getElementById("masterSongName").innerText = songs[index].songName;
         document.getElementById("masterImage").src = songs[index].coverPath;
+        document.querySelector("footer").style.visibility = "visible";
     })
 })
 
